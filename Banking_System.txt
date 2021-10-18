@@ -23,7 +23,7 @@ class Bank {
         arr[account2-1] = val2+money;
         return true;
     }
-    
+    //Added indentation
     public boolean deposit(int account, long money) {
         
         if(account-1 < 0 || account-1 >=arr.length)
